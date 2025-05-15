@@ -2,13 +2,16 @@ name: Auto-Generate Studies
 
 on:
   schedule:
-    # 03:00 UTC every day
-    - cron: '0 3 * * *'
+    - cron: '0 3 * * *'          # 03:00 UTC daily
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    env:                          # ← makes the secret visible to all steps
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
