@@ -1,17 +1,22 @@
 name: Auto-Generate Studies
+
 on:
   schedule:
-    # 03:00 UTC every day (just before your 5 AM ET Pages job)
+    # 03:00 UTC every day
     - cron: '0 3 * * *'
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
       - name: Setup Python
         uses: actions/setup-python@v4
-        with: python-version: "3.x"
+        with:
+          python-version: '3.x'
 
       - name: Install deps
         run: pip install -r requirements.txt
