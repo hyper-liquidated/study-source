@@ -1,1 +1,152 @@
-[]
+[
+  {
+    "title": "The Role of Green Spaces in Urban Mental Health",
+    "authors": [
+      "Dr. Emily Johnson",
+      "Prof. Mark Thompson"
+    ],
+    "source": "Journal of Urban Psychology",
+    "summary": "This study explores the impact of urban green spaces on mental health outcomes, highlighting how access to parks and nature can reduce stress and anxiety in city dwellers.",
+    "why_notable": "The findings support urban planning initiatives that prioritize green spaces for improving public mental health.",
+    "tags": "interested"
+  },
+  {
+    "title": "Nudging Voter Participation: Evidence from a Field Experiment",
+    "authors": [
+      "Dr. Sarah Lee",
+      "Prof. John Smith"
+    ],
+    "source": "Political Behavior",
+    "summary": "This paper examines the effectiveness of various nudges, such as personalized mailings and reminders, in increasing voter turnout in local elections.",
+    "why_notable": "The results offer valuable insights into how behavioral interventions can enhance civic engagement.",
+    "tags": "interested"
+  },
+  {
+    "title": "Inequality and Inheritance Mobility: A Global Perspective",
+    "authors": [
+      "Dr. Anna Davis",
+      "Prof. Robert Garcia"
+    ],
+    "source": "Journal of Economic Inequality",
+    "summary": "This research analyzes the relationship between wealth inheritance and social mobility across different countries, revealing significant disparities.",
+    "why_notable": "It highlights the need for policy reforms to address inherited wealth's impact on equality of opportunity.",
+    "tags": "maybe later"
+  },
+  {
+    "title": "The Ethics of AI in Climate Policy Decision-Making",
+    "authors": [
+      "Dr. Laura Wang",
+      "Prof. Samuel Brown"
+    ],
+    "source": "AI & Society",
+    "summary": "This article discusses the ethical implications of using AI algorithms in crafting climate policies and their potential biases.",
+    "why_notable": "It raises awareness of the intersection between AI ethics and environmental sustainability, crucial for future policy design.",
+    "tags": "interested"
+  },
+  {
+    "title": "Behavioral Insights into Scarcity Mindset and Economic Decision-Making",
+    "authors": [
+      "Dr. Kevin Patel",
+      "Prof. Lisa Chen"
+    ],
+    "source": "Behavioral Economics Review",
+    "summary": "The study explores how a scarcity mindset influences financial decisions and risk-taking behavior.",
+    "why_notable": "Understanding these dynamics can inform interventions designed to support individuals facing economic hardship.",
+    "tags": "not now"
+  },
+  {
+    "title": "Understanding Zero-Knowledge Proofs in Financial Applications",
+    "authors": [
+      "Dr. Alice Kim",
+      "Dr. Tom Hughes"
+    ],
+    "source": "Cryptography and Finance Journal",
+    "summary": "This article provides an overview of zero-knowledge proofs, focusing on their applications in enhancing privacy and security in financial transactions.",
+    "why_notable": "These techniques are pivotal for building trust in decentralized finance environments.",
+    "tags": "interested",
+    "example": "zk-SNARKs used in transactions",
+    "why_powerful": "They allow verification without revealing sensitive data, crucial for privacy.",
+    "further_explanation": "Zero-knowledge proofs enable parties to prove knowledge of a fact without disclosing the fact itself, thereby maintaining confidentiality.",
+    "projects": [
+      "Zcash",
+      "Polygon zkEVM",
+      "Aztec Protocol"
+    ]
+  },
+  {
+    "title": "Exploring the Mechanics of DeFi Systemic Risk",
+    "authors": [
+      "Dr. Mark Evans",
+      "Prof. Julia Reed"
+    ],
+    "source": "Journal of Financial Stability",
+    "summary": "The paper investigates systemic risks arising from collateral rehypothecation and leverage chains in decentralized finance.",
+    "why_notable": "It contributes to understanding vulnerabilities in DeFi ecosystems that could lead to broader financial instability.",
+    "tags": "maybe later",
+    "example": "Leverage chains in DeFi lending protocols",
+    "why_powerful": "Highlighting interconnected risks helps to design better safety nets.",
+    "further_explanation": "Rehypothecation allows assets to be reused as collateral, which can amplify risk if not managed properly.",
+    "projects": [
+      "Aave",
+      "Compound",
+      "MakerDAO"
+    ]
+  },
+  {
+    "title": "The Future of Tokenized Real-World Assets (RWA) in Finance",
+    "authors": [
+      "Dr. Rachel Green",
+      "Prof. Ben Lewis"
+    ],
+    "source": "International Journal of Blockchain Law",
+    "summary": "This research discusses the growing trend of tokenizing real-world assets and its implications for liquidity and investment.",
+    "why_notable": "Tokenization can democratize access to investment opportunities and enhance liquidity.",
+    "tags": "interested",
+    "example": "Real estate tokenization platforms",
+    "why_powerful": "It enables fractional ownership, making high-value assets accessible to smaller investors.",
+    "further_explanation": "Tokenizing RWAs allows for easier transferability, increased liquidity, and broader access to previously illiquid markets.",
+    "projects": [
+      "RealT",
+      "CurioInvest",
+      "Myco"
+    ]
+  },
+  {
+    "title": "Staking and Restaking Economics: The Case of EigenLayer",
+    "authors": [
+      "Dr. Chris Young",
+      "Prof. Emma Harris"
+    ],
+    "source": "Journal of Blockchain Economics",
+    "summary": "This paper analyzes the economic incentives of staking and restaking in the context of EigenLayer and its implications for liquidity.",
+    "why_notable": "Understanding these mechanics is essential for optimizing returns for stakers and ensuring network security.",
+    "tags": "interested",
+    "example": "EigenLayer's restaking mechanism",
+    "why_powerful": "It allows users to enhance their capital efficiency by leveraging existing stakes.",
+    "further_explanation": "Restaking enables users to utilize their staked assets in multiple protocols, maximizing potential returns.",
+    "projects": [
+      "EigenLayer",
+      "Lido Finance",
+      "Rocket Pool"
+    ]
+  },
+  {
+    "title": "The Impact of Cross-Chain Bridges on Blockchain Interoperability",
+    "authors": [
+      "Dr. Zoe Martin",
+      "Prof. Liam Clark"
+    ],
+    "source": "Blockchain Technology Review",
+    "summary": "This article explores the role of cross-chain bridges in enhancing interoperability between different blockchain ecosystems.",
+    "why_notable": "With the proliferation of blockchains, improving interoperability is crucial for the next phase of crypto adoption.",
+    "tags": "maybe later",
+    "example": "Inter-Blockchain Communication (IBC) protocol",
+    "why_powerful": "IBC allows different blockchains to communicate and exchange data securely, fostering a more interconnected ecosystem.",
+    "further_explanation": "Cross-chain bridges facilitate asset transfers and interactions between distinct blockchain networks, enhancing overall utility.",
+    "projects": [
+      "Cosmos",
+      "Polkadot",
+      "LayerZero"
+    ]
+  }
+]
