@@ -1,0 +1,28 @@
+name: Auto-Generate Studies
+on:
+  schedule:
+    # 03:00 UTC every day (just before your 5 AM ET Pages job)
+    - cron: '0 3 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with: python-version: "3.x"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Fetch new studies
+        run: python scripts/fetch_studies.py
+
+      - name: Commit data
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add data/studies.json
+          git diff --cached --quiet || git commit -m "Auto-update studies.json"
+          git push
