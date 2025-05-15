@@ -1,8 +1,11 @@
 name: Auto-Generate Studies
 
+permissions:
+  contents: write        # ← allow the bot to push to this repo
+
 on:
   schedule:
-    - cron: '0 3 * * *'          # 03:00 UTC daily
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 jobs:
