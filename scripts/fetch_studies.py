@@ -4,9 +4,32 @@ Generate 10 daily studies (5 Social-Layer + 5 Architectures-of-Capital)
 and write them to data/studies.json for downstream rendering.
 """
 
-import os, json
-import urllib.parse        # ←-- new
+import os, json, re
+import urllib.parse, requests     # ← NEW
+from difflib import SequenceMatcher # ← NEW
 from openai import OpenAI
+# ──────────────────────────────────────────────────────────
+def crossref_doi_from_title(title: str) -> str | None:
+    """
+    Ask Crossref for the first work that matches this title.
+    Return a DOI URL if the match is reasonably close, else None.
+    """
+    url = "https://api.crossref.org/works"
+    try:
+        r = requests.get(url, params={"query.title": title, "rows": 1, "mailto": "you@example.com"}, timeout=8)
+        r.raise_for_status()
+        items = r.json()["message"]["items"]
+        if not items:
+            return None
+        cr_title = items[0]["title"][0]
+        similarity = SequenceMatcher(None, title.lower(), cr_title.lower()).ratio()
+        if similarity >= 0.75:                     # tweak threshold if needed
+            doi = items[0]["DOI"]
+            return f"https://doi.org/{doi}"
+    except Exception:
+        pass
+    return None
+# ──────────────────────────────────────────────────────────
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
@@ -59,9 +82,18 @@ def main() -> None:
 # ── Add a Google Scholar link if the AI left source_url missing or non-http ──
 for s in studies:
     url = s.get("source_url", "")
-    if not url or "http" not in url:
+    # 1) If we already have a link that begins with http, keep it
+    if url and url.startswith("http"):
+        continue
+    # 2) Try Crossref to get an authoritative DOI
+    doi_url = crossref_doi_from_title(s["title"])
+    if doi_url:
+        s["source_url"] = doi_url
+    else:
+        # 3) Last resort: Google-Scholar search link
         query = urllib.parse.quote_plus(s["title"])
         s["source_url"] = f"https://scholar.google.com/scholar?q={query}"
+        
     os.makedirs("data", exist_ok=True)
     with open("data/studies.json", "w", encoding="utf-8") as f:
         json.dump(studies, f, indent=2, ensure_ascii=False)
