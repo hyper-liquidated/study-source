@@ -23,7 +23,7 @@ def crossref_doi_from_title(title: str) -> str | None:
             return None
         cr_title = items[0]["title"][0]
         similarity = SequenceMatcher(None, title.lower(), cr_title.lower()).ratio()
-        if similarity >= 0.75:                     # tweak threshold if needed
+        if similarity >= 0.85:                     # tweak threshold if needed
             doi = items[0]["DOI"]
             return f"https://doi.org/{doi}"
     except Exception:
