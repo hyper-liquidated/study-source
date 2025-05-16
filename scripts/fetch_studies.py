@@ -95,9 +95,14 @@ for s in studies:
         s["source_url"] = f"https://scholar.google.com/scholar?q={query}"
         
     os.makedirs("data", exist_ok=True)
-    with open("data/studies.json", "w", encoding="utf-8") as f:
-        json.dump(studies, f, indent=2, ensure_ascii=False)
+    # ─── Ensure every entry has a "date" field for the feed builder ───
+for s in studies:
+    if "date" not in s:
+        s["date"] = s["batch"]
 
+# ─── Finally, write the JSON out ───
+with open("data/studies.json", "w", encoding="utf-8") as f:
+    json.dump(studies, f, indent=2)
     print(f"Wrote {len(studies)} studies to data/studies.json")
 
 if __name__ == "__main__":
