@@ -56,7 +56,12 @@ def main() -> None:
     )
 
     studies = json.loads(resp.choices[0].message.content)
-
+# ── Add a Google Scholar link if the AI left source_url missing or non-http ──
+for s in studies:
+    url = s.get("source_url", "")
+    if not url or "http" not in url:
+        query = urllib.parse.quote_plus(s["title"])
+        s["source_url"] = f"https://scholar.google.com/scholar?q={query}"
     os.makedirs("data", exist_ok=True)
     with open("data/studies.json", "w", encoding="utf-8") as f:
         json.dump(studies, f, indent=2, ensure_ascii=False)
