@@ -5,6 +5,7 @@ and write them to data/studies.json for downstream rendering.
 """
 
 import os, json
+import urllib.parse        # ←-- new
 from openai import OpenAI
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
