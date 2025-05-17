@@ -115,6 +115,18 @@ def generate():
 # === 4. Main workflow ===
 def main():
     raw = generate()
+    
+      # ─── Strip out any triple-backtick fences if GPT wrapped its JSON ───
+    if raw.startswith("```"):
+        lines = raw.splitlines()
+        # drop first fence line
+        if lines[0].startswith("```"):
+            lines = lines[1:]
+        # drop last fence line
+        if lines and lines[-1].startswith("```"):
+            lines = lines[:-1]
+        raw = "\n".join(lines)
+        
     try:
         studies = json.loads(raw)
     except json.JSONDecodeError:
