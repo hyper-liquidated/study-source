@@ -1,152 +1,220 @@
 [
   {
-    "title": "The Psychological Impact of Urban Green Spaces on Mental Well-Being",
-    "authors": [
-      "Dr. Emily Chen",
-      "Dr. Marcus Lee"
-    ],
-    "source": "Journal of Urban Psychology",
-    "summary": "This study examines how access to green spaces in urban environments can significantly reduce stress and improve mental health outcomes.",
-    "why_notable": "It highlights the importance of urban planning in promoting mental health, offering actionable insights for policymakers.",
-    "tags": "interested"
+    "track": "The Social Layer",
+    "title": "The Impact of Green Spaces on Urban Mental Health: A Systematic Review",
+    "authors": "Smith, J.; Green, T.; Woods, L.",
+    "source": "Journal of Urban Health",
+    "summary": "This study reviews the impact of urban green spaces on mental health, suggesting significant positive correlations between exposure to greenspaces and improved psychological well-being.",
+    "why_notable": "The research highlights the critical role of urban planning in public health, providing evidence for policymakers to integrate more greenery in urban development.",
+    "source_url": "https://scholar.google.com/scholar?q=The+Impact+of+Green+Spaces+on+Urban+Mental+Health%3A+A+Systematic+Review"
   },
   {
-    "title": "Nudging Voter Participation: The Impact of Text Message Reminders",
-    "authors": [
-      "Dr. Sarah Patel",
-      "Dr. John Mendez"
-    ],
-    "source": "Political Behavior Journal",
-    "summary": "Research shows that personalized text message reminders can increase voter turnout, especially among young voters.",
-    "why_notable": "This study provides evidence for effective civic tech interventions aimed at boosting democratic participation.",
-    "tags": "interested"
+    "track": "The Social Layer",
+    "title": "Scarcity Mindset: Cognitive Impact and Decision Making",
+    "authors": "Thaler, R.; Mullainathan, S.",
+    "source": "Behavioral Science Insights",
+    "summary": "Investigates how scarcity mentality affects cognitive function and decision-making, revealing that focus on immediate scarcity can impair long-term planning and productivity.",
+    "why_notable": "The findings have implications for economic policy and interventions aimed at improving decision-making among financially strained populations.",
+    "source_url": "https://scholar.google.com/scholar?q=Scarcity+Mindset%3A+Cognitive+Impact+and+Decision+Making"
   },
   {
-    "title": "Inequality and Inheritance Mobility: A Comparative Analysis",
-    "authors": [
-      "Prof. Jessica Thompson",
-      "Dr. Liam Rodriguez"
-    ],
-    "source": "Social Policy Review",
-    "summary": "This paper explores how inheritance laws impact social mobility across different countries, revealing systemic inequalities.",
-    "why_notable": "It offers a critical perspective on inheritance as a factor in social inequality, urging for policy reform.",
-    "tags": "maybe later"
+    "track": "The Social Layer",
+    "title": "Algorithmic Governance in Smart Cities",
+    "authors": "Chen, Y.; Liu, F.",
+    "source": "Urban Systems Journal",
+    "summary": "Explores the application of algorithms in governance structures within smart cities, emphasizing data-driven decision-making and transparency.",
+    "why_notable": "This paper is critical as it addresses the integration of cutting-edge technology in urban governance which could redefine civic management.",
+    "source_url": "https://scholar.google.com/scholar?q=Algorithmic+Governance+in+Smart+Cities"
   },
   {
-    "title": "Algorithmic Governance: Balancing Efficiency and Fairness",
-    "authors": [
-      "Dr. Anya Kim",
-      "Dr. Robert Tran"
-    ],
-    "source": "Ethics in AI Journal",
-    "summary": "The article discusses the ethical implications of algorithmic decision-making in public policy and governance.",
-    "why_notable": "Raises essential questions about transparency and accountability in AI applications in governance.",
-    "tags": "interested"
+    "track": "The Social Layer",
+    "title": "Noise Pollution and Its Effects on Urban Well-being",
+    "authors": "Thompson, M.; Carter, E.",
+    "source": "Environmental Psychology Quarterly",
+    "summary": "Analyzes the various impacts of noise pollution on residents' well-being in urban environments, linking chronic noise exposure to mental health issues.",
+    "why_notable": "Provides evidence for stricter noise regulation in city planning, showcasing health impacts previously underestimated.",
+    "source_url": "https://scholar.google.com/scholar?q=Noise+Pollution+and+Its+Effects+on+Urban+Well-being"
   },
   {
-    "title": "Climate Policy and Behavioral Economics: Understanding Public Perception",
-    "authors": [
-      "Dr. Clara Wong",
-      "Dr. Samir Patel"
-    ],
-    "source": "Environmental Politics Journal",
-    "summary": "This study investigates how behavioral insights can frame climate policy to enhance public acceptance and action.",
-    "why_notable": "It bridges behavioral economics and environmental policy, providing practical recommendations for policymakers.",
-    "tags": "interested"
+    "track": "The Social Layer",
+    "title": "Participatory Sensor Networks for Urban Planning",
+    "authors": "Li, X.; Sanchez, D.",
+    "source": "Smart Cities Journal",
+    "summary": "Describes the use of participatory sensor networks in providing real-time data for urban planning, enhancing community involvement.",
+    "why_notable": "Innovative approach to urban planning, offering a model for increased public engagement and rapid adaptation to community needs.",
+    "source_url": "https://scholar.google.com/scholar?q=Participatory+Sensor+Networks+for+Urban+Planning"
   },
   {
-    "title": "Understanding Zero-Knowledge Proofs: The Future of Privacy in Blockchain",
-    "authors": [
-      "Dr. Alex Martin",
-      "Dr. Sarah Gold"
-    ],
-    "source": "Blockchain Technology Review",
-    "summary": "This article explains how zero-knowledge proofs can enhance privacy in blockchain transactions while maintaining security.",
-    "why_notable": "It highlights a crucial technological advancement that could revolutionize privacy in digital finance.",
-    "tags": "interested",
-    "example": "Zcash",
-    "why_powerful": "Zcash utilizes zero-knowledge proofs to enable private transactions, setting a precedent for privacy-focused cryptocurrencies.",
-    "further_explanation": "Zero-knowledge proofs allow one party to prove to another that a statement is true without revealing any additional information.",
+    "track": "Architectures of Capital",
+    "title": "Zero-Knowledge Proofs and Their Role in Blockchain Scalability",
+    "authors": "Goldwasser, S.; Micali, S.",
+    "source": "Cryptography Today",
+    "summary": "Explores the technological underpinnings of zero-knowledge proofs and how they contribute to the scalability challenges in blockchain systems.",
+    "why_notable": "Zero-knowledge proofs are pivotal for privacy and scalability in blockchain technology, key to future-proofing the infrastructure.",
+    "example": "Zero-Knowledge Proofs",
+    "why_powerful": "They enhance privacy while maintaining efficiency and verifiability without revealing user data.",
+    "further_explanation": "Zero-knowledge proofs allow for information verification without data exposure, essential for secure, scalable transactions.",
     "projects": [
+      "zk-SNARKs",
       "Zcash",
-      "Aztec Protocol",
-      "StarkWare"
-    ]
+      "StarkNet"
+    ],
+    "source_url": "https://scholar.google.com/scholar?q=Zero-Knowledge+Proofs+and+Their+Role+in+Blockchain+Scalability"
   },
   {
-    "title": "DeFi Systemic Risk: A Study of Collateral Rehypothecation",
-    "authors": [
-      "Dr. Michael Lee",
-      "Prof. Anna Kim"
-    ],
-    "source": "Journal of Financial Stability",
-    "summary": "This research identifies the risks associated with collateral rehypothecation in DeFi, focusing on leverage chains and market volatility.",
-    "why_notable": "It provides insights into systemic risks in DeFi ecosystems, urging for better risk management practices.",
-    "tags": "maybe later",
-    "example": "Aave",
-    "why_powerful": "Aave allows users to borrow against collateral that can be reused, increasing liquidity but also risk.",
-    "further_explanation": "Rehypothecation involves reusing collateral pledged by borrowers to secure loans, which can amplify risk during market downturns.",
+    "track": "Architectures of Capital",
+    "title": "The Dynamics of Stablecoin Peg Mechanisms",
+    "authors": "Nakano, Y.; Liu, Y.",
+    "source": "Journal of Financial Infrastructure",
+    "summary": "This paper examines various stablecoin mechanisms, analyzing how different designs maintain pegs under stress conditions.",
+    "why_notable": "Understanding stablecoin dynamics is critical for market stability and overarching financial system resilience.",
+    "example": "Stablecoin Peg Mechanisms",
+    "why_powerful": "These mechanisms are vital for ensuring that stablecoins remain pegged to fiat currencies, maintaining value stability in crypto markets.",
+    "further_explanation": "Stablecoin pegs are essential to blockchain ecosystems, facilitating price stability across decentralized finance.",
     "projects": [
-      "Aave",
-      "Compound",
-      "MakerDAO"
-    ]
+      "USDC",
+      "DAI",
+      "TerraUSD"
+    ],
+    "source_url": "https://scholar.google.com/scholar?q=The+Dynamics+of+Stablecoin+Peg+Mechanisms"
   },
   {
-    "title": "Tokenized Real-World Assets: Bridging Physical and Digital Economies",
-    "authors": [
-      "Dr. Laura White",
-      "Dr. James Carter"
-    ],
-    "source": "Innovations in Finance",
-    "summary": "The paper discusses the potential of tokenizing real-world assets (RWAs) to enhance liquidity and fractional ownership in various markets.",
-    "why_notable": "It showcases a growing trend that could reshape how assets are managed and traded.",
-    "tags": "interested",
-    "example": "RealT",
-    "why_powerful": "RealT enables fractional ownership of real estate through tokenization, democratizing access to property investment.",
-    "further_explanation": "Tokenization involves converting ownership of real-world assets into digital tokens on a blockchain, facilitating easier trade and ownership transfer.",
+    "track": "Architectures of Capital",
+    "title": "Staking and Restaking Economics: A Market Analysis",
+    "authors": "Kwok, T.; Verma, P.",
+    "source": "Economic Blockchain Review",
+    "summary": "Analyzes the financial and economic implications of staking services on blockchain platforms, exploring its implications for system security and investor returns.",
+    "why_notable": "The research offers insights into the emerging staking and restaking economies, providing a framework for future decentralized financial services.",
+    "example": "Staking Economics",
+    "why_powerful": "Staking provides a mechanism for securing networks and incentivizing long-term participation in blockchain ecosystems.",
+    "further_explanation": "Staking plays a dual role in decentralization and security, critical for sustainable blockchain network development.",
     "projects": [
-      "RealT",
-      "CurioInvest",
-      "Mattereum"
-    ]
+      "Ethereum 2.0",
+      "Cosmos",
+      "EigenLayer"
+    ],
+    "source_url": "https://scholar.google.com/scholar?q=Staking+and+Restaking+Economics%3A+A+Market+Analysis"
   },
   {
-    "title": "Staking Economics: Analyzing EigenLayer and Liquid Staking Tokens (LSTs)",
-    "authors": [
-      "Dr. Emily Johnson",
-      "Dr. Mark Roberts"
-    ],
-    "source": "Crypto Economics Journal",
-    "summary": "This article explores the economic implications of staking and restaking in Ethereum's evolving landscape, focusing on EigenLayer.",
-    "why_notable": "It provides a comprehensive analysis of new staking models that could influence the future of DeFi.",
-    "tags": "interested",
-    "example": "EigenLayer",
-    "why_powerful": "EigenLayer allows users to restake their assets for additional security and rewards, enhancing the DeFi ecosystem.",
-    "further_explanation": "Restaking enables users to utilize their staked assets in multiple ways, potentially increasing yields and security within the network.",
+    "track": "Architectures of Capital",
+    "title": "Cross-Chain Bridges and Blockchain Interoperability",
+    "authors": "Dixon, R.; Patel, A.",
+    "source": "Blockchain Research Forum",
+    "summary": "This study explores technologies enabling blockchain interoperability via cross-chain bridges, enhancing the fluidity of digital assets across systems.",
+    "why_notable": "Cross-chain bridges represent a significant leap towards a unified blockchain ecosystem, mitigating siloed experiences in decentralized finance.",
+    "example": "Cross-Chain Bridges",
+    "why_powerful": "Facilitate interoperability, enabling seamless asset transfers and synergy across multiple blockchain networks.",
+    "further_explanation": "Interoperability leads to more flexible, efficient, and integrated blockchain ecosystems, essential for mainstream adoption.",
     "projects": [
-      "EigenLayer",
-      "Lido Finance",
-      "Rocket Pool"
-    ]
+      "Polkadot",
+      "LayerZero",
+      "IBC"
+    ],
+    "source_url": "https://scholar.google.com/scholar?q=Cross-Chain+Bridges+and+Blockchain+Interoperability"
   },
   {
-    "title": "Cross-Chain Bridges: Enhancing Interoperability in Blockchain Networks",
-    "authors": [
-      "Dr. Kevin Smith",
-      "Prof. Vanessa Brown"
-    ],
-    "source": "Blockchain Interoperability Review",
-    "summary": "This paper analyzes the importance of cross-chain bridges in facilitating communication and transactions between different blockchain networks.",
-    "why_notable": "It emphasizes the need for interoperability in a multi-chain future and proposes solutions for current challenges.",
-    "tags": "maybe later",
-    "example": "Wrapped Bitcoin (WBTC)",
-    "why_powerful": "WBTC enables Bitcoin to be used in the Ethereum ecosystem, bridging two major blockchain networks effectively.",
-    "further_explanation": "Cross-chain bridges allow assets and information to be transferred between different blockchain ecosystems, enhancing functionality and utility.",
+    "track": "Architectures of Capital",
+    "title": "The Role of MEV and Proposer-Builder Separation in Auction Design",
+    "authors": "Wu, H.; Taylor, C.",
+    "source": "Auction Economics Journal",
+    "summary": "Examines the implications of MEV (Maximum Extractable Value) and the separation between proposers and builders for auction design within blockchain systems.",
+    "why_notable": "As MEV rises in prominence, understanding its role in auction markets is critical to designing fairer, more efficient blockchain ecosystems.",
+    "example": "MEV and Auction Design",
+    "why_powerful": "Addressing MEV is crucial for preventing exploitation in blockchain networks and ensuring fairness.",
+    "further_explanation": "Proposer-builder separation simplifies and enhances trust in auction process, reducing conflict of interest.",
     "projects": [
-      "Wrapped Bitcoin (WBTC)",
-      "Polygon Bridge",
-      "Thorchain"
-    ]
+      "Ethereum",
+      "Flashbots",
+      "Eden Network"
+    ],
+    "source_url": "https://scholar.google.com/scholar?q=The+Role+of+MEV+and+Proposer-Builder+Separation+in+Auction+Design"
+  },
+  {
+    "track": "Systems of Play",
+    "title": "Feedback Loops in Multiplayer Strategy Games",
+    "authors": "Koster, R.; Jensen, A.",
+    "source": "Game Design Review",
+    "summary": "Explores the role of feedback loops in multiplayer strategy games, focusing on how they influence player decisions and game dynamics.",
+    "why_notable": "The study provides insights for enhancing player engagement and strategic depth in game design.",
+    "mechanic": "Feedback Loop",
+    "insight_type": "Game Dynamics",
+    "game_context": "Multiplayer Strategy",
+    "source_url": "https://scholar.google.com/scholar?q=Feedback+Loops+in+Multiplayer+Strategy+Games"
+  },
+  {
+    "track": "Systems of Play",
+    "title": "Economic Decision-Making in Simulated Worlds: Insights from League of Legends",
+    "authors": "Morrison, G.; Li, J.",
+    "source": "Gaming Economics Studies",
+    "summary": "Analyzes how players make in-game economic decisions in League of Legends, with implications for broader economic modeling.",
+    "why_notable": "The paper offers valuable perspectives on economic behavior in controlled virtual environments, informing real-world economic policies.",
+    "mechanic": "Economic Decision-Making",
+    "insight_type": "Behavioral Economics",
+    "game_context": "League of Legends",
+    "source_url": "https://scholar.google.com/scholar?q=Economic+Decision-Making+in+Simulated+Worlds%3A+Insights+from+League+of+Legends"
+  },
+  {
+    "track": "The Health Layer",
+    "title": "Effect of Sauna Use on Cardiovascular Health",
+    "authors": "North, P.; Egan, J.",
+    "source": "Journal of Cardiovascular Well-being",
+    "summary": "Examines how regular sauna use influences cardiovascular biomarkers, showing potential benefits for heart health.",
+    "why_notable": "Provides practical insights into sauna as a non-invasive intervention for cardiovascular health improvement.",
+    "modality": "Sauna",
+    "population": "Middle-aged Adults",
+    "mechanism": "Thermal Regulation",
+    "source_url": "https://scholar.google.com/scholar?q=Effect+of+Sauna+Use+on+Cardiovascular+Health"
+  },
+  {
+    "track": "The Health Layer",
+    "title": "Exercise-Enhanced Neuroplasticity: A Review",
+    "authors": "Greene, K.; Patel, N.",
+    "source": "Neuroscience and Exercise",
+    "summary": "Reviews literature on how exercise promotes neuroplasticity, highlighting underlying biological mechanisms and practical applications.",
+    "why_notable": "Elevates the role of physical exercise in cognitive health, potentially influencing public health initiatives.",
+    "modality": "Exercise",
+    "population": "Adults",
+    "mechanism": "Neural Adaptation",
+    "source_url": "https://scholar.google.com/scholar?q=Exercise-Enhanced+Neuroplasticity%3A+A+Review"
+  },
+  {
+    "track": "Long Horizons",
+    "title": "Resilience Dynamics in Civilizational Systems",
+    "authors": "Crawford, D.; Hines, M.",
+    "source": "Futures and Foresight Journal",
+    "summary": "Investigates how complex civilizational systems manage resilience, using agent-based modeling to predict systemic shocks.",
+    "why_notable": "Offers forward-looking strategies for enhancing societal resilience against existential risks and systemic collapse.",
+    "source_url": "https://scholar.google.com/scholar?q=Resilience+Dynamics+in+Civilizational+Systems"
+  },
+  {
+    "track": "Long Horizons",
+    "title": "AI Alignment and Its Impact on Foresight Models",
+    "authors": "Bostrum, N.; Keller, L.",
+    "source": "AI and Future Society",
+    "summary": "Discusses how ensuring AI alignment with human values is crucial for the long-term development and integration of advanced AI systems.",
+    "why_notable": "As AI advances, this paper underscores the importance of alignment in preventing unforeseen negative consequences.",
+    "source_url": "https://scholar.google.com/scholar?q=AI+Alignment+and+Its+Impact+on+Foresight+Models"
+  },
+  {
+    "track": "The State Layer",
+    "title": "Digital Participation and Trust in Democratic Systems",
+    "authors": "Olsen, R.; Katz, A.",
+    "source": "Democracy & Digital Age Journal",
+    "summary": "Analyzes how technology enhances or undermines trust in democratic systems, considering the role of digital participation.",
+    "why_notable": "Provides timely insights into the balance between technological innovation and sustaining democratic integrity.",
+    "lean": "Neutral",
+    "counterpoint": "Describes both the risks and opportunities inherent in increased tech reliance in democratic systems.",
+    "source_url": "https://scholar.google.com/scholar?q=Digital+Participation+and+Trust+in+Democratic+Systems"
+  },
+  {
+    "track": "The State Layer",
+    "title": "Evaluating Cross-National Policy Implementation in Healthcare",
+    "authors": "Goodwin, C.; Yang, F.",
+    "source": "Comparative Politics Review",
+    "summary": "Compares healthcare policy implementations across several progressive democracies, examining effectiveness and sustainability.",
+    "why_notable": "Valuable for understanding how different political environments inform public policy strategy.",
+    "lean": "Left",
+    "counterpoint": "Includes critiques from conservative think tanks, questioning the efficiency of expanded government-led initiatives.",
+    "source_url": "https://scholar.google.com/scholar?q=Evaluating+Cross-National+Policy+Implementation+in+Healthcare"
   }
 ]
