@@ -1,12 +1,12 @@
 name: Auto-Generate Studies
 
 permissions:
-  contents: write  # allow the bot to push data/studies.json
+  contents: write
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # daily at 03:00 UTC
-  workflow_dispatch:      # manual trigger
+    - cron: '0 3 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
