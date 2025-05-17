@@ -24,8 +24,8 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
-        run: pip install openai requests
+      - - name: Install dependencies
+          run: pip install openai==0.28 requests
 
       - name: Fetch new studies
         run: python scripts/fetch_studies.py
