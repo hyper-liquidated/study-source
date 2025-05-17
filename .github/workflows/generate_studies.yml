@@ -1,12 +1,12 @@
 name: Auto-Generate Studies
 
 permissions:
-  contents: write  # ← allow the bot to push data/studies.json
+  contents: write  # allow the bot to push data/studies.json
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Runs daily at 03:00 UTC
-  workflow_dispatch:     # Manual trigger option
+    - cron: '0 3 * * *'   # daily at 03:00 UTC
+  workflow_dispatch:      # manual trigger
 
 jobs:
   build:
@@ -24,8 +24,9 @@ jobs:
         with:
           python-version: '3.x'
 
-      - - name: Install dependencies
-          run: pip install openai==0.28 requests
+      - name: Install dependencies
+        run: |
+          pip install openai==0.28 requests
 
       - name: Fetch new studies
         run: python scripts/fetch_studies.py
