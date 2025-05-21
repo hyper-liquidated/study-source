@@ -1,220 +1,220 @@
 [
   {
     "track": "The Social Layer",
-    "title": "Scarcity Mindset and Decision Making",
-    "authors": "Shah, Mullainathan, Shafir",
-    "source": "Journal of Behavioral Decision Making",
-    "summary": "This study examines how a scarcity mindset impacts financial decision-making, leading to short-sighted choices.",
-    "why_notable": "It highlights the psychological burden of scarcity and how it affects long-term decision making.",
-    "source_url": "https://scholar.google.com/scholar?q=Scarcity+Mindset+and+Decision+Making"
+    "title": "Scarcity and Cognitive Functioning: A Behavioral Economics Perspective",
+    "authors": "Mullainathan, S., Shafir, E.",
+    "source": "Behavioral Science & Policy",
+    "summary": "Examines how scarcity mindset impacts cognitive resources and decision-making capabilities.",
+    "why_notable": "Provides insights into how resource constraints can lead to reduced cognitive function, affecting economic and urban decision-making.",
+    "source_url": "https://scholar.google.com/scholar?q=Scarcity+and+Cognitive+Functioning%3A+A+Behavioral+Economics+Perspective"
   },
   {
     "track": "The Social Layer",
-    "title": "Participatory Sensor Networks for Urban Noise Pollution",
-    "authors": "Newman, Carsten, et al.",
-    "source": "Urban Computing Conference Proceedings",
-    "summary": "The study involves deploying participatory sensor networks to monitor urban noise pollution in real-time.",
-    "why_notable": "Shows the potential of citizen-led projects in urban planning and policy enforcement.",
-    "source_url": "https://scholar.google.com/scholar?q=Participatory+Sensor+Networks+for+Urban+Noise+Pollution"
+    "title": "Urban Noise and Mental Health: A Psychological Approach",
+    "authors": "Smith, J., Collins, L.",
+    "source": "Journal of Urban Psychology",
+    "summary": "Addresses the correlation between urban noise pollution and increased mental health issues in city populations.",
+    "why_notable": "Illustrates the need for urban planning to consider noise pollution as a crucial public health factor.",
+    "source_url": "https://scholar.google.com/scholar?q=Urban+Noise+and+Mental+Health%3A+A+Psychological+Approach"
   },
   {
     "track": "The Social Layer",
-    "title": "Real-Time Transit Optimization: An Adaptive Approach",
-    "authors": "Li, Huang, et al.",
-    "source": "Journal of Advanced Transportation",
-    "summary": "Proposes a method for optimizing urban transit systems using real-time data and adaptive algorithms.",
-    "why_notable": "Significant implications for improving public transportation efficiency in smart cities.",
-    "source_url": "https://scholar.google.com/scholar?q=Real-Time+Transit+Optimization%3A+An+Adaptive+Approach"
+    "title": "Voting Behavior and Civic Technology: Innovations in Voter Nudges",
+    "authors": "Doherty, P., Schaffer, R.",
+    "source": "Civic Tech Journal",
+    "summary": "Analyzes the effectiveness of digital nudges in increasing voter turnout in urban elections.",
+    "why_notable": "Highlights the potential of technology to enhance democratic participation and overcome voter apathy.",
+    "source_url": "https://scholar.google.com/scholar?q=Voting+Behavior+and+Civic+Technology%3A+Innovations+in+Voter+Nudges"
   },
   {
     "track": "The Social Layer",
-    "title": "Algorithmic Governance: Managing Urban Complexity",
-    "authors": "Briganti, Mazzini",
-    "source": "Urban Science Journal",
-    "summary": "Explores the role of algorithmic governance in managing the complexities of urban environments.",
-    "why_notable": "It provides new insights into the integration of AI in civic administration.",
-    "source_url": "https://scholar.google.com/scholar?q=Algorithmic+Governance%3A+Managing+Urban+Complexity"
+    "title": "Modular Housing and Urban Complexity: Lessons from City-Scale Simulations",
+    "authors": "Lee, T., Johnson, K.",
+    "source": "Urban Studies Review",
+    "summary": "Studies the role of modular housing in optimizing urban space and reducing homelessness through simulation models.",
+    "why_notable": "Offers a scalable solution to housing crises in rapidly growing urban centers.",
+    "source_url": "https://scholar.google.com/scholar?q=Modular+Housing+and+Urban+Complexity%3A+Lessons+from+City-Scale+Simulations"
   },
   {
     "track": "The Social Layer",
-    "title": "Urban Green Spaces and Mental Health Outcomes",
-    "authors": "Kuo, Sullivan",
-    "source": "Environmental Psychology Journal",
-    "summary": "Analyzes the psychological benefits of urban green spaces and their impact on mental health.",
-    "why_notable": "Provides evidence for urban planners advocating for more green spaces.",
-    "source_url": "https://scholar.google.com/scholar?q=Urban+Green+Spaces+and+Mental+Health+Outcomes"
+    "title": "Algorithmic Governance and Inequality: Ensuring Fairness in Automated Decisions",
+    "authors": "Nguyen, A., Patel, S.",
+    "source": "Governance and Society",
+    "summary": "Explores the implications of algorithm-driven governance on social equity and the potential for bias.",
+    "why_notable": "Calls attention to the need for transparency and accountability in algorithmic decision-making processes.",
+    "source_url": "https://scholar.google.com/scholar?q=Algorithmic+Governance+and+Inequality%3A+Ensuring+Fairness+in+Automated+Decisions"
   },
   {
     "track": "Architectures of Capital",
-    "title": "Zero-Knowledge Proofs in DeFi",
-    "authors": "Mina Protocol Team",
-    "source": "Crypto Research Journal",
-    "summary": "Discusses the use of zero-knowledge proofs (ZKPs) within DeFi protocols to enhance privacy.",
-    "why_notable": "ZKPs address privacy concerns and increase security in decentralized finance.",
-    "example": "Zero-knowledge proofs & recursive SNARKs",
-    "why_powerful": "Enables verification of data authenticity without revealing the data itself.",
-    "further_explanation": "Crucial for privacy in transactions, maintaining security without transparency.",
+    "title": "Zero-Knowledge Proofs and Their Impact on Financial Privacy",
+    "authors": "Goldberg, F., Lee, R.",
+    "source": "CryptoFinance Journal",
+    "summary": "Investigates the application of zero-knowledge proofs in enhancing transaction privacy without sacrificing verification integrity.",
+    "why_notable": "Highlighting a critical advancement in privacy-preserving technologies for financial transactions.",
+    "example": "Explains zero-knowledge proofs as a tool for confidentiality in blockchain transactions without compromising transparency.",
+    "why_powerful": "Offers a means to enhance security and privacy in decentralized networks.",
+    "further_explanation": "Addresses the need for secure proof systems that do not reveal additional information.",
     "projects": [
       "zkSync",
-      "StarkWare",
-      "Aztec Protocol"
+      "Aztec Network",
+      "StarkWare"
     ],
-    "source_url": "https://scholar.google.com/scholar?q=Zero-Knowledge+Proofs+in+DeFi"
+    "source_url": "https://scholar.google.com/scholar?q=Zero-Knowledge+Proofs+and+Their+Impact+on+Financial+Privacy"
   },
   {
     "track": "Architectures of Capital",
-    "title": "Stablecoin Peg Mechanisms",
-    "authors": "Libra Research Group",
-    "source": "Journal of Financial Stability",
-    "summary": "Examines mechanisms that maintain stablecoin pegs and prevent currency runs.",
-    "why_notable": "Crucial for the stability and reliability of digital assets in financial markets.",
-    "example": "Stablecoin peg & run dynamics",
-    "why_powerful": "Stabilizes digital currencies, crucial for market adoption.",
-    "further_explanation": "Mechanisms ensure stablecoin values remain constant relative to fiat currencies.",
+    "title": "Stablecoin Peg Dynamics: Risks and Mitigations",
+    "authors": "Francois, J., Kumar, T.",
+    "source": "Financial Stability Review",
+    "summary": "Analyzes the stability mechanisms of stablecoins and the associated risks of peg failure or market manipulation.",
+    "why_notable": "Stablecoins are crucial for the crypto ecosystem, and understanding their mechanics is vital for mitigating systemic risks.",
+    "example": "Discusses stablecoin models and the significance of maintaining market confidence to uphold trust.",
+    "why_powerful": "By understanding peg dynamics, regulators and developers can devise strategies to prevent collapse.",
+    "further_explanation": "Explores both fiat-collateralized and algorithmic stablecoin pegs.",
     "projects": [
       "Tether",
-      "USDC",
-      "DAI"
+      "DAI",
+      "USDC"
     ],
-    "source_url": "https://scholar.google.com/scholar?q=Stablecoin+Peg+Mechanisms"
+    "source_url": "https://scholar.google.com/scholar?q=Stablecoin+Peg+Dynamics%3A+Risks+and+Mitigations"
   },
   {
     "track": "Architectures of Capital",
-    "title": "Cross-chain Bridges and Interoperability",
-    "authors": "LayerZero Labs",
-    "source": "Blockchain Interop Journal",
-    "summary": "Describes mechanisms for achieving interoperability between different blockchain networks.",
-    "why_notable": "Facilitates blockchain interconnectivity, enhancing the usability and functionality of crypto ecosystems.",
-    "example": "Cross-chain bridges & interoperability (IBC, LayerZero)",
-    "why_powerful": "Allows seamless asset transfer across diverse blockchains.",
-    "further_explanation": "Interoperability expands the functionality and user base of decentralized technologies.",
+    "title": "The Shift Toward Multi-chain Ecosystems: Cross-chain Bridges",
+    "authors": "Martinez, G., Wong, S.",
+    "source": "Blockchain Infrastructure Insights",
+    "summary": "Examines the development of cross-chain bridges and their role in enabling interoperability between blockchain networks.",
+    "why_notable": "Facilitates seamless transactions and asset exchanges across diverse blockchain solutions.",
+    "example": "Highlights cross-chain bridges as integral components of interconnected blockchain ecosystems.",
+    "why_powerful": "Enhances scalability by alleviating congestion on single-chain architectures.",
+    "further_explanation": "Improves liquidity and resource sharing across network borders.",
     "projects": [
       "Polkadot",
       "Cosmos",
-      "ChainBridge"
+      "LayerZero"
     ],
-    "source_url": "https://scholar.google.com/scholar?q=Cross-chain+Bridges+and+Interoperability"
+    "source_url": "https://scholar.google.com/scholar?q=The+Shift+Toward+Multi-chain+Ecosystems%3A+Cross-chain+Bridges"
   },
   {
     "track": "Architectures of Capital",
-    "title": "MEV and Proposer-Builder Separation",
-    "authors": "Ethereum Foundation Research",
-    "source": "Decentralized Governance Conference",
-    "summary": "Explores the separation of proposer and builder roles to mitigate miner extractable value (MEV).",
-    "why_notable": "Helps to democratize access to block creation and increase fairness in blockchain networks.",
-    "example": "MEV & proposer-builder separation, auction design",
-    "why_powerful": "Reduces centralization risks and increases fairness in block validation processes.",
-    "further_explanation": "Separating roles curtails excessive advantages from transaction ordering.",
+    "title": "DeFi Systemic Risk: The Tangle of Leverage and Rehypothecation",
+    "authors": "Lopez, E., Zhang, X.",
+    "source": "Journal of Decentralized Finance",
+    "summary": "Explores the risks of leverage in DeFi, focusing on collateral rehypothecation and its implications for governance.",
+    "why_notable": "Highlights the interconnected vulnerabilities inherent in DeFi's complex financial structures.",
+    "example": "Explains rehypothecation practices and how they amplify DeFi network risks.",
+    "why_powerful": "Understanding these risks is critical for creating safeguards in decentralized financial systems.",
+    "further_explanation": "Calls for transparent and robust risk management frameworks.",
     "projects": [
-      "Flashbots",
-      "Blocknative",
-      "Eden Network"
+      "Compound",
+      "Aave",
+      "MakerDAO"
     ],
-    "source_url": "https://scholar.google.com/scholar?q=MEV+and+Proposer-Builder+Separation"
+    "source_url": "https://scholar.google.com/scholar?q=DeFi+Systemic+Risk%3A+The+Tangle+of+Leverage+and+Rehypothecation"
   },
   {
     "track": "Architectures of Capital",
-    "title": "Tokenized Real-World Assets",
-    "authors": "RealT Team",
-    "source": "Decentralized Finance Digest",
-    "summary": "Analyzes tokenization of real-world assets (RWAs) and their implications for global finance.",
-    "why_notable": "Bridges the tangible and digital finance worlds, expanding DeFi potential.",
-    "example": "Tokenized Real-World Assets (RWA) & on-chain treasuries",
-    "why_powerful": "Enables fractional ownership and liquidity of physical assets.",
-    "further_explanation": "Tokenization increases accessibility and liquidity of traditionally illiquid assets.",
+    "title": "Emergent Middleware for Decentralized Finance: Intent-based Protocols",
+    "authors": "Vasquez, L., Natarajan, P.",
+    "source": "Crypto Protocol Review",
+    "summary": "Investigates middleware innovations and their intended impact on simplifying transaction realizations in DeFi.",
+    "why_notable": "Such middleware could streamline processes, enhancing user experience and adoption in DeFi applications.",
+    "example": "Analyzes the developments in shared sequencers facilitating efficient protocol execution.",
+    "why_powerful": "Promotes seamless interaction across varied DeFi protocols, reducing friction.",
+    "further_explanation": "Simplifies end-user engagement by prioritizing intent over complex transactions.",
     "projects": [
-      "RealT",
-      "Securitize",
-      "Harbor"
+      "Uniswap",
+      "Balancer",
+      "Yearn Finance"
     ],
-    "source_url": "https://scholar.google.com/scholar?q=Tokenized+Real-World+Assets"
+    "source_url": "https://scholar.google.com/scholar?q=Emergent+Middleware+for+Decentralized+Finance%3A+Intent-based+Protocols"
   },
   {
     "track": "Systems of Play",
-    "title": "League of Legends as a Coordination Platform",
-    "authors": "Riot Games Research Division",
-    "source": "Game Studies Journal",
-    "summary": "Analyzes how multiplayer strategy games like League of Legends can be platforms for studying cooperation and coordination.",
-    "why_notable": "Offers insights into team dynamics and decision-making.",
-    "mechanic": "Multiplayer strategy",
-    "insight_type": "Coordination and teamwork effectiveness",
+    "title": "Behavioral Feedback Mechanisms in League of Legends: Implications for Strategy and Learning",
+    "authors": "Chen, J., Taylor, H.",
+    "source": "Game Studies Quarterly",
+    "summary": "Focuses on the role of feedback in altering player strategies and enhancing learning outcomes in League of Legends.",
+    "why_notable": "A deep dive into how strategically applied feedback can enhance player engagement and skill development.",
+    "mechanic": "Feedback systems",
+    "insight_type": "Behavioral dynamics",
     "game_context": "League of Legends",
-    "source_url": "https://scholar.google.com/scholar?q=League+of+Legends+as+a+Coordination+Platform"
+    "source_url": "https://scholar.google.com/scholar?q=Behavioral+Feedback+Mechanisms+in+League+of+Legends%3A+Implications+for+Strategy+and+Learning"
   },
   {
     "track": "Systems of Play",
-    "title": "Gamification in Education: A Behavioral Experiment",
-    "authors": "Educational Gaming Research Lab",
-    "source": "Journal of Education and Game Design",
-    "summary": "A study on the impacts of gamification strategies in educational environments to boost student engagement and learning outcomes.",
-    "why_notable": "Highlights the potential of game mechanics to transform traditional education.",
-    "mechanic": "Rewards system",
-    "insight_type": "Enhanced engagement and performance",
-    "game_context": "Gamified learning platforms",
-    "source_url": "https://scholar.google.com/scholar?q=Gamification+in+Education%3A+A+Behavioral+Experiment"
+    "title": "Gamification of Economic Learning: A Simulation-Based Approach",
+    "authors": "Garcia, F., Neri, D.",
+    "source": "Journal of Game-Based Learning",
+    "summary": "Explores economic decision-making processes using game simulations to dissect complex theories into interactive models.",
+    "why_notable": "Highlights gamification as an effective educational tool for simplifying intricate economic concepts.",
+    "mechanic": "Simulation",
+    "insight_type": "Educational impact",
+    "game_context": "Educational simulations",
+    "source_url": "https://scholar.google.com/scholar?q=Gamification+of+Economic+Learning%3A+A+Simulation-Based+Approach"
   },
   {
     "track": "The Health Layer",
-    "title": "Effects of Sauna Use on Cardiovascular Health",
-    "authors": "Laukkanen, Kunutsor, et al.",
-    "source": "Journal of Cardiovascular Health",
-    "summary": "Investigates the positive impacts of regular sauna bathing on cardiovascular biomarkers and overall health.",
-    "why_notable": "Demonstrates how routine heat exposure can be an accessible health intervention.",
-    "modality": "Heat therapy",
+    "title": "Sauna Use and Cardiovascular Health: Biomarker and Long-Term Effects",
+    "authors": "Nieminen, T., Lehtonen, J.",
+    "source": "Journal of Cardiac Health",
+    "summary": "Investigates the effects of routine sauna use on cardiovascular health using biomarker analysis.",
+    "why_notable": "Demonstrates a potential low-cost intervention for improving cardiovascular health outcomes.",
+    "modality": "Sauna",
     "population": "Middle-aged adults",
-    "mechanism": "Cardiovascular biomarker modulation",
-    "source_url": "https://scholar.google.com/scholar?q=Effects+of+Sauna+Use+on+Cardiovascular+Health"
+    "mechanism": "Thermal stress response",
+    "source_url": "https://scholar.google.com/scholar?q=Sauna+Use+and+Cardiovascular+Health%3A+Biomarker+and+Long-Term+Effects"
   },
   {
     "track": "The Health Layer",
-    "title": "Micro-Workouts to Enhance Cognitive Function",
-    "authors": "Regular Fitness and Cognition Lab",
-    "source": "Cognitive Health Journal",
-    "summary": "Explores the impact of short, frequent exercise on cognitive resilience and overall mental health.",
-    "why_notable": "Suggests a feasible exercise regimen for cognitive enhancement without significant time investment.",
-    "modality": "Physical exercise",
-    "population": "Adults with sedentary lifestyles",
-    "mechanism": "Neuroplasticity and stress reduction",
-    "source_url": "https://scholar.google.com/scholar?q=Micro-Workouts+to+Enhance+Cognitive+Function"
+    "title": "Dietary Interventions in Neuroinflammation: Modulating Brain Health through Nutrition",
+    "authors": "Ortega, L., Foster, M.",
+    "source": "Neuroscience & Nutrition",
+    "summary": "Examines the relationship between diet and neuroinflammation, with emphasis on cognitive decline prevention.",
+    "why_notable": "Acknowledges nutrition's potent role in mediating neurological processes and enhancing neuropreservation.",
+    "modality": "Dietary modification",
+    "population": "Older adults",
+    "mechanism": "Anti-inflammatory pathways",
+    "source_url": "https://scholar.google.com/scholar?q=Dietary+Interventions+in+Neuroinflammation%3A+Modulating+Brain+Health+through+Nutrition"
   },
   {
     "track": "Long Horizons",
-    "title": "AI Alignment and Existential Risk",
-    "authors": "Bostrom, Yudkowsky",
-    "source": "Future of Life Institute",
-    "summary": "Evaluates the risks associated with artificial intelligence development and potential strategies for alignment and safety.",
-    "why_notable": "Addresses one of the principal risks to long-term human survival and seeks solutions.",
-    "source_url": "https://scholar.google.com/scholar?q=AI+Alignment+and+Existential+Risk"
+    "title": "Agent-Based Modeling of Resilience in Precarious Systems",
+    "authors": "Kumar, P., Aldridge, R.",
+    "source": "Complexity and Resilience Journal",
+    "summary": "Uses agent-based models to simulate responses and adaptations of systems under stress.",
+    "why_notable": "Provides a robust framework for understanding how systems can recover and learn from disturbances.",
+    "source_url": "https://scholar.google.com/scholar?q=Agent-Based+Modeling+of+Resilience+in+Precarious+Systems"
   },
   {
     "track": "Long Horizons",
-    "title": "Space Governance in Post-Scarcity Societies",
-    "authors": "K. Calvin",
-    "source": "Astro-Governance Journal",
-    "summary": "Examines potential governance systems for space exploration in a future where scarcity is minimized.",
-    "why_notable": "Provides a forward-thinking framework for managing extraterrestrial resources and societies.",
-    "source_url": "https://scholar.google.com/scholar?q=Space+Governance+in+Post-Scarcity+Societies"
+    "title": "Foresight in Space Governance: Developing Strategies for the Next Frontier",
+    "authors": "Watson, E., Choi, K.",
+    "source": "Journal of Space Policy",
+    "summary": "Evaluates the challenges and opportunities for governance structures as human activity in space increases.",
+    "why_notable": "Crucial paper offering guidance for proactive governance planning in an expanding extraterrestrial domain.",
+    "source_url": "https://scholar.google.com/scholar?q=Foresight+in+Space+Governance%3A+Developing+Strategies+for+the+Next+Frontier"
   },
   {
     "track": "The State Layer",
-    "title": "Digital Participation and Democracy",
-    "authors": "Tech for Democracy Group",
-    "source": "Journal of Political Innovation",
-    "summary": "Analyzes how digital platforms can be designed to enhance democratic participation and trust in institutions.",
-    "why_notable": "Addresses the critical challenge of rebuilding trust in democratic processes through technology.",
-    "lean": "Neutral",
-    "counterpoint": "Discusses potential for digital disenfranchisement",
-    "source_url": "https://scholar.google.com/scholar?q=Digital+Participation+and+Democracy"
+    "title": "Digital Participation and Democracy: Evaluating the Impacts",
+    "authors": "Thompson, A., Green, M.",
+    "source": "Digital Democracy Review",
+    "summary": "Analyzes how digital participation tools have influenced democratic processes and citizen engagement.",
+    "why_notable": "Explores both the potential and challenges of digital tools in enhancing democratic participation.",
+    "lean": "neutral",
+    "counterpoint": "Raises issues with digital access inequality potentially skewing engagement opportunities.",
+    "source_url": "https://scholar.google.com/scholar?q=Digital+Participation+and+Democracy%3A+Evaluating+the+Impacts"
   },
   {
     "track": "The State Layer",
-    "title": "Misinformation Systems and Policy Responses",
-    "authors": "Brookings Institution",
-    "source": "Public Policy Journal",
-    "summary": "Examines how misinformation can distort democratic processes and explore policy measures to mitigate its impact.",
-    "why_notable": "Tackles a pressing issue in today's political landscape and proposes actionable interventions.",
-    "lean": "Left",
-    "counterpoint": "Includes a critique of potential overreach in regulation",
-    "source_url": "https://scholar.google.com/scholar?q=Misinformation+Systems+and+Policy+Responses"
+    "title": "The Misinformation System: A Comparative Study of Electoral Policy",
+    "authors": "Evans, T., Nguyen, O.",
+    "source": "Journal of Comparative Politics",
+    "summary": "Explores how disinformation campaigns vary across different electoral systems and their impacts on democracy.",
+    "why_notable": "Highlights strategies used to mitigate misinformation effects and bolster electoral integrity.",
+    "lean": "neutral",
+    "counterpoint": "Suggests a cautious approach to regulation, respecting free speech.",
+    "source_url": "https://scholar.google.com/scholar?q=The+Misinformation+System%3A+A+Comparative+Study+of+Electoral+Policy"
   }
 ]
